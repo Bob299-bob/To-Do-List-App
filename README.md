@@ -10,6 +10,6 @@ A simple task manager app built with HTML, CSS, and JavaScript.
 - Clean and colorful UI
 
 ## How to Run
-1. Clone the repo or download ZIP
+1. Clone the repo 
 2. Open `index.html` in your browser
 
