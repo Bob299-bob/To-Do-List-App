@@ -1,3 +1,4 @@
+//To Remove Task From the TO DO LIST APP
 let container=document.querySelector(".container");
 container.addEventListener("click",(e)=>{
     let curr=e.target.dataset;
@@ -7,6 +8,7 @@ container.addEventListener("click",(e)=>{
     console.log(idName);
     }
 });
+//To Get Information About Tasks that are running .
 container.addEventListener("click",(e)=>{
 let curr1=e.target.dataset;
 let idIn=curr1.in;
@@ -23,6 +25,7 @@ if(curr1?.in){
     a.appendChild(div);
   }
 });
+//To Add new task in a TO DO LIST APP(TASK MANAGER).
 function add(){
     alert("Your Task is under Processing");
     setTimeout(()=>{
@@ -66,3 +69,4 @@ function add(){
     }
     },2000);   
 }
+
